@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#hero {
+  background-color: #f4f4f4;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#about, #projects, #contact {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.project {
+  background-color: #efefef;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
